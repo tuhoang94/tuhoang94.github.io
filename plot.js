@@ -25,6 +25,9 @@
         // We are coloring by Owner as that will be the key in the legend
         myChart.addMeasureAxis("x", "Economy (GDP per Capita)");
         myChart.addMeasureAxis("y", "Happiness Score");
+        //Radius bubbles
+       // var z = myChart.addMeasureAxis("z", "Happiness Score");
+
         myChart.addSeries(["Happiness Rank", "Country", "Region"], dimple.plot.bubble);
         var myLegend = myChart.addLegend(620, 70, 60, 300, "Right");
         myChart.draw();

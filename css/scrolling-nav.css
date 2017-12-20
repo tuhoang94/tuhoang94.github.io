@@ -15,7 +15,10 @@ header {
 }
 
 section {
-  padding: 100px 0;
+  padding: 40px 0;
+}
+section .container {
+  padding: 20px 0;
 }
 
 #chart {
@@ -62,4 +65,14 @@ text {
   width: 200px;
   height: 28px;
   pointer-events: none;
+}
+
+.rectangle {
+	fill: steelblue;
+}
+.rectangle:hover {
+	fill: orange;
+}
+.axis {
+  font: 10px sans-serif;
 }
