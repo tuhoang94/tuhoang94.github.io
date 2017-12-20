@@ -16,7 +16,7 @@ d3.csv("./data/2015.csv", function(error, data){
 	// Get every column value, and filter
 	var elements = Object.keys(data[0])
 		.filter(function(d){
-			return ((d != "Region") & (d != "Country") & (d != "Happiness Rank"));
+			return ((d != "Region") & (d != "Country") & (d != "Happiness Rank") & (d != "Standard Error"));
 		});
 	var selection = elements[0];
 

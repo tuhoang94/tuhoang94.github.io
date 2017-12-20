@@ -49,6 +49,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#visual">Visualization</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -90,9 +93,10 @@
         <div class="row">
           <div class="col-lg-12 mx-auto">
             <h2>Inspiration</h2>
-            <p class="lead">What countries or regions rank the highest in overall happiness and each of the six factors contributing to happiness? How did country ranks or scores change between the 2015 and 2016 as well as the 2016 and 2017 reports? Did any country experience a significant increase or decrease in happiness?</p>
+            <p class="lead">What countries or regions rank the highest in overall happiness and each of the six factors contributing to happiness? And what determines how happy a country is? The saying "money doesn't buy your happiness", is this true? The answers on these questions are shown beneath.</p>
+            Dataset: <a href="https://www.kaggle.com/unsdsn/world-happiness">The World Happiness Report</a
           </div>
-          <div class="col-lg-4 mx-auto">
+         <!-- <div class="col-lg-4 mx-auto">
             <h6>What is Dystopia?</h6>
             <p class="lead">Dystopia is an imaginary country that has the world’s least-happy people. The purpose in establishing Dystopia is to have a benchmark against which all countries can be favorably compared (no country performs more poorly than Dystopia) in terms of each of the six key variables, thus allowing each sub-bar to be of positive width. The lowest scores observed for the six key variables, therefore, characterize Dystopia. Since life would be very unpleasant in a country with the world’s lowest incomes, lowest life expectancy, lowest generosity, most corruption, least freedom and least social support, it is referred to as “Dystopia,” in contrast to Utopia.</p>
           </div>
@@ -104,7 +108,7 @@
             <h6>How is the Happiness score calculated?</h6>
             <p class="lead">The following columns: GDP per Capita, Family, Life Expectancy, Freedom, Generosity, Trust Government Corruption describe the extent to which these factors contribute in evaluating the happiness in each country. The Dystopia Residual metric actually is the Dystopia Happiness Score(1.85) + the Residual value or the unexplained value for each country as stated in the previous answer.
     If you add all these factors up, you get the happiness score so it might be un-reliable to model them to predict Happiness Scores.</p>
-            </div>
+            </div>-->
         </div>
       </div>
     </section>
@@ -137,9 +141,9 @@
             <p id="chartContainer"></p>
             </div>
           <div class="col-lg-4 mx-auto">
-<h4>The happiest country of the world</h4>
-            <p class="lead"> What makes a country happy? The United Nations considers the answer with its annual World Happiness Report, ranking a total of 155 countries and 10 regions. Key ingredients for well-being include longer healthy years of life, more social support, trust in government, higher GDP per capita, and generosity.<p>
-            <p> The world is divided in regions. Each regions had it countries and each country is different. But which country is the happiest? And is this in correlation with how much capital it has?
+<h4>Happiness and GDP</h4>
+            <p class="lead"> The world is divided in regions and it countries. But which country is the happiest? And is this in correlation with how much capital it has?<p>
+            <p> In this plot are the happiness and Economy (GDP per Capita) shown for every country. </p>
             </div> 
         </div>
       </div>
@@ -158,8 +162,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mx-auto">
-            <h4>Geomap</h4>
-                <p class="lead">Chloropleth map happinnes score over the world Chloropleth map happinnes score over the world Chloropleth map happinnes score over the world Chloropleth map happinnes score over the world</p>
+            <h4>World Happiness</h4>
+                <p class="lead">Happiness is not equally distributed across the world. The reason for the variations across the world are dependent on multiple factors i.e. the factors mentioned earlier.</p>
+                <p>On the right, a choropleth map is shown. The map shows the happiness scores of the residents of that region. The intensity of the color is based on the Happiness score of the country.</p>
                 </div>
               <div class="col-lg-8 mx-auto">
                 <p id="chloroplethMap"></p>
@@ -170,18 +175,33 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto">
-            <h4>Value of all countries</h4>
-                <p class="lead">The happiness scores and rankings use data from the Gallup World Poll. The scores are based on answers to the main life evaluation question asked in the poll. This question, known as the Cantril ladder, asks respondents to think of a ladder with the best possible life for them being a 10 and the worst possible life being a 0 and to rate their own current lives on that scale. The scores are from nationally representative samples for the years 2013-2016 and use the Gallup weights to make the estimates representative. The columns following the happiness score estimate the extent to which each of six factors – economic production, social support, life expectancy, freedom, absence of corruption, and generosity – contribute to making life evaluations higher in each country than they are in Dystopia, a hypothetical country that has values equal to the world’s lowest national averages for each of the six factors. They have no impact on the total score reported for each country, but they do explain why some countries rank higher than others.</p>
-            <p> Below is a barchart shown of all the 155 countries participated in the Happiness Report. The countries are shown in most happiest country till the less happiest country. You can filter by the variables.</p>
+            <h4>Key ingredients</h4>
+                <p class="lead">The happiness scores and rankings use data from the Gallup World Poll. The scores are based on answers to the main life evaluation question asked in the poll. This question, known as the Cantril ladder, asks respondents to think of a ladder with the best possible life for them being a 10 and the worst possible life being a 0 and to rate their own current lives on that scale. The scores are from nationally representative samples for the years 2013-2016 and use the Gallup weights to make the estimates representative. </p>
+                <p class="lead">The columns following the happiness score estimate the extent to which each of six factors – economic production, social support, life expectancy, freedom, absence of corruption, and generosity – contribute to making life evaluations higher in each country than they are in Dystopia, a hypothetical country that has values equal to the world’s lowest national averages for each of the six factors. They have no impact on the total score reported for each country, but they do explain why some countries rank higher than others.</p>
 
-                <div id="drop" align=center>Filter on: </div>
+                <p id="drop" align=center>Filter on: </p>
 
                 <p id="chartFilter"></p>
             
             </div>
         </div>
       </div>
+      
         </section>
+        
+                <section id="conclusion" class="bg-light">
+            <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+          <h4>Conclusion</h4>
+            <p> The most happiest country is  <a href="https://www.google.nl/search?q=switzerland&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&dcr=0&ei=uMA6WozuDYq3tgfc9bG4AQ">Switzerland</a>. As shown in the visualization above, its not one factor which determines how happy the country is but multiple factors. Switzerland doesn'nt have a factor which they stand out but most of it are high which makes Switzerland Top 1 Happiest Country of the WORLD!</p>
+            </div>
+        </div>
+  </div>
+  
+  
+  </section>
+        
         
         <section id="about" class="bg-primary text-white text-center">
             <div class="container">
@@ -194,12 +214,14 @@
             </div>
         </div>
   </div>
+  
+  
   </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; 2017 by Tu Hoang</p>
       </div>
       <!-- /.container -->
     </footer>
