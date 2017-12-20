@@ -1,0 +1,9 @@
+DONE:
+- dimple plot: interactive legend (http://dimplejs.org/advanced_examples_viewer.html?id=advanced_interactive_legends)
+- 
+
+Bezig:
+- Bezig met udacity scatter plot animation --> werkt nog niet met data, maar is wel mooi. HOEFT NIET
+
+TO DO:
+- Meer charts voor visualiseren van "Happiest country"
