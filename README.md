@@ -14,21 +14,21 @@ Feedback is collected. The following changes are made:
 * 20/12/2017 - Scatter plot colors, animation, added conclusion
 
 ## Feedback
-Tuan Hoang:
-•	What do you notice in the visualization? 
--	De ratio van geluk is getoond voor elke land. Aan de rechterkant staan de markers voor elke land met ieder een unieke kleur en het grafiek toont de landen met hun happiness score. 
-•	What questions do you have about the data? 
--	Waarop is de score gebaseerd?
-•	What relationships do you notice? 
--	Welke land het meest gelukkigste is
-•	What do you think is the main takeaway from this visualization? 
--	Laat zien welke land het meest gelukkigste is de ranking van de gelukkigste landen tot de ongelukkigste landen.
-•	Is there something you don’t understand in the graphic?
--	Er zijn meer circles die in de grafiek staan dan er aan de rechterkant staan (markers)
-•	Other feedback
--	De webpagina is heel basic zonder navigatie en de kleuren zijn ook basic
--	Kan meer uitleg bij de grafieken
-Akin Bulut:
+**Tuan Hoang:**
+* What do you notice in the visualization? 
+* De ratio van geluk is getoond voor elke land. Aan de rechterkant staan de markers voor elke land met ieder een unieke kleur en het grafiek toont de landen met hun happiness score. *
+* What questions do you have about the data? 
+* Waarop is de score gebaseerd?*
+* What relationships do you notice? 
+* Welke land het meest gelukkigste is* 
+* What do you think is the main takeaway from this visualization? 
+* Laat zien welke land het meest gelukkigste is de ranking van de gelukkigste landen tot de ongelukkigste landen.*
+* Is there something you don’t understand in the graphic?
+* Er zijn meer circles die in de grafiek staan dan er aan de rechterkant staan (markers)*
+* Other feedback
+* De webpagina is heel basic zonder navigatie en de kleuren zijn ook basic, Kan meer uitleg bij de grafieken*
+
+**Akin Bulut:**
 •	What do you notice in the visualization? 
 -	Een grafiek over de happiness van de nations. Voor elke land is de happiness score aangetoond en de landen zijn weergegeven met kleuren. De opmaak is clean, maar kan meer tekst bij. 
 •	What questions do you have about the data? 
