@@ -20,7 +20,7 @@ De ratio van geluk is getoond voor elke land. Aan de rechterkant staan de marker
 * What questions do you have about the data? 
 Waarop is de score gebaseerd?
 * What relationships do you notice? 
-Welke land het meest gelukkigste is*
+Welke land het meest gelukkigste is
 * What do you think is the main takeaway from this visualization? 
 Laat zien welke land het meest gelukkigste is de ranking van de gelukkigste landen tot de ongelukkigste landen.
 * Is there something you don’t understand in the graphic?
@@ -29,33 +29,33 @@ Er zijn meer circles die in de grafiek staan dan er aan de rechterkant staan (ma
 De webpagina is heel basic zonder navigatie en de kleuren zijn ook basic, Kan meer uitleg bij de grafieken
 
 **Akin Bulut:**
-** What do you notice in the visualization? **
+* What do you notice in the visualization? 
 Een grafiek over de happiness van de nations. Voor elke land is de happiness score aangetoond en de landen zijn weergegeven met kleuren. De opmaak is clean, maar kan meer tekst bij. 
-** What questions do you have about the data? **
+* What questions do you have about the data? 
 Waarom zijn deze landen zo gelukkig/ongelukkig?
 Eerder is gezegd dat een deelvraag is dat geld je niet gelukkig maakt, maar hoe zie ik dat in het grafiek?
-**What relationships do you notice? **
+* What relationships do you notice? 
 Hoe gelukkig elk land is
-**What do you think is the main takeaway from this visualization? **
+* What do you think is the main takeaway from this visualization? 
 De main takeaway is dat de gelukkigste land 
-**Is there something you don’t understand in the graphic?**
+* Is there something you don’t understand in the graphic?
 De indeling met de Happiness Rank en de Happiness Score.
-**Other feedback**
+* Other feedback
 De landen opsplitsen in regio’s zodat het overzichtelijker wordt, omdat het nu niet overzichtelijk is en per regio dan ook aantonen welke landen erbij horen zodat hier ook een conclusie kan worden getrokken
 Opmaak aanpassen met meer tekst
 
-Tom Kluijtmans:
-•	What do you notice in the visualization?  
--	Het titel zegt het; The Happiness of Nations. Dit wordt aangetoond de het grafiek. 
-•	What questions do you have about the data? 
--	Waarop is de happiness score gebaseerd?
--	Hoe kan ik zien of geld je gelukkig maakt?
-•	What relationships do you notice? 
--	Hoe gelukkig een land is
-•	What do you think is the main takeaway from this visualization? 
--	Hoe gelukkig een land is
-•	Is there something you don’t understand in the graphic?
--	Hoeveel landen zijn er getest, want in de legioenen staan er max. 30 landen ipv het grafiek.
+**Tom Kluijtmans:**
+* What do you notice in the visualization?  
+Het titel zegt het; The Happiness of Nations. Dit wordt aangetoond de het grafiek. 
+* What questions do you have about the data? 
+Waarop is de happiness score gebaseerd?
+Hoe kan ik zien of geld je gelukkig maakt?
+* What relationships do you notice? 
+Hoe gelukkig een land is
+* What do you think is the main takeaway from this visualization? 
+Hoe gelukkig een land is
+* Is there something you don’t understand in the graphic?
+Hoeveel landen zijn er getest, want in de legioenen staan er max. 30 landen ipv het grafiek.
 
 
 ## Deployment
